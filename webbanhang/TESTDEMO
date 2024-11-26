@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Trang giới thiệu bản thân của Đăng Quang">
+    <meta name="keywords" content="Đăng Quang và bạn bè cùng lớp">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân</title>
+</head>
+<body>
+    <header>
+        <h1>Giới thiệu bản thân</h1>
+        <p>Xin chào! Tôi là Đăng Quang. Đây là một trang web giới thiệu về bản thân tôi.</p>
+    </header>
+    <main>
+        <section>
+            <h2>Bạn cùng lớp</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100045580955855" target="_blank" rel="noopener noreferrer">Facebook của Đặng Nguyễn Tuấn Tú</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100063584331788" target="_blank" rel="noopener noreferrer">Facebook của Võ Đăng Khoa</a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100040309007573" target="_blank" rel="noopener noreferrer">Facebook của Nguyễn Đạt Chí</a></li>
+            </ul>
+          <h2> profile cá nhân </h2>
+          <ul>
+            <li> Đẹp trai nhất lớp </li>
+            <li> Nhất tỉnh 2024 </li>
+            <li>Thủ khoa 20đ hsg 2024-2025 </li>
+            <h2> Một số cái đéo liên quan </h2>
+          <p>
+    <a href="http://thpttpcaolanh.dongthap.edu.vn/" target="_blank" rel="noopener noreferrer">
+        Website của trường THPT TPCL
+    </a>
+</p>
+            <p>Video giới thiệu:</p>
+<iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/CAr-PhzvVWk?si=KvR3hIU8p8wJaXGC" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+
+
+
+        </section>
+    </main>
+    <footer>
+        <p>Cảm ơn bạn đã ghé thăm!</p>
+    </footer>
+</body>
+</html>
