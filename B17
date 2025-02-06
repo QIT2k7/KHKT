@@ -71,3 +71,116 @@
     </div>
 </body>
 </html>
+
+
+<--------- nv 2 ------->
+
+
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu HTML và CSS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f5f5f5;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+        }
+        h2 {
+            color: blue;
+            font-weight: bold;
+        }
+        .top-nav {
+            background-color: #4a148c;
+            padding: 10px;
+            text-align: right;
+        }
+        .top-nav a {
+            color: lightgreen;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .top-nav a:hover {
+            color: red;
+        }
+        p:first-of-type {
+            color: red;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
+        .logo {
+            width: 80px;
+            display: none;
+        }
+        .show-logo:hover + .logo {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Giới thiệu HTML và CSS</h1>
+        <div class="top-nav">
+            <a href="#">Giới thiệu HTML</a>
+            <a href="#">Giới thiệu CSS</a>
+        </div>
+
+        <h2>Giới thiệu HTML</h2>
+        <h2>Giới thiệu CSS</h2>
+
+        <h3>HTML là gì</h3>
+        <p>
+            HTML - tên viết tắt của HyperText Markup Language, ngôn ngữ đánh dấu siêu văn bản, 
+            <strong>là ngôn ngữ đặc biệt</strong> dùng để thiết kế nội dung các trang web và được thể hiện bằng trình duyệt.
+        </p>
+        <p>Cấu trúc mỗi tệp HTML là một cấu trúc dạng cây của các phần tử HTML.</p>
+        <p class="show-logo">Xem logo của HTML:</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" class="logo" alt="HTML Logo">
+
+        <p>
+            Link xem thêm chi tiết về HTML tại 
+            <a href="https://en.wikipedia.org/wiki/HTML">đây</a>.
+        </p>
+        <p>
+            Link xem và tự học HTML tại 
+            <a href="https://www.w3schools.com/html/default.asp">đây</a>.
+        </p>
+
+        <h3>CSS là gì</h3>
+        <p>
+            CSS (Cascading Style Sheets) là ngôn ngữ định dạng đặc biệt được dùng để mô tả cách thể hiện 
+            của văn bản HTML trong trang web.
+        </p>
+        <p>Mỗi định dạng CSS đều có dạng chuẩn là bộ chọn <code>{thuộc tính : giá trị ;}</code>.</p>
+        <p class="show-logo">Xem logo của CSS:</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" class="logo" alt="CSS Logo">
+
+        <p>
+            Link xem thêm chi tiết về CSS tại 
+            <a href="https://en.wikipedia.org/wiki/CSS">đây</a>.
+        </p>
+        <p>
+            Link xem và tự học CSS tại 
+            <a href="https://www.w3schools.com/css/default.asp">đây</a>.
+        </p>
+    </div>
+</body>
+</html>
+
